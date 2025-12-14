@@ -1,0 +1,18 @@
+# Data
+data/*.csv
+data/*.pt
+data/*.txt
+*.csv
+*.pt
+
+# Checkpoints (too large for GH free tier usually, limit 100MB)
+checkpoints/*.pth
+__pycache__/
+*.pkl
+
+# OS
+.DS_Store
+
+# Environments
+venv/
+.env
